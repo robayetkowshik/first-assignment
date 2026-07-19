@@ -13,6 +13,181 @@
 
 </head>
 <body>
-   
+ <!-- 1. TOP WHITE NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <!-- 🔴 MAIN LOGO HERE (logo.png) 🔴 -->
+            <img src="./assets/logo.png" alt="DevConf Logo" class="logo-img">
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+        </ul>
+
+        <div class="nav-cta">
+            <a href="#tickets" class="btn-nav">Register Now</a>
+        </div>
+    </nav>
+
+    <!-- 2. DARK HERO BACKGROUND SECTION -->
+    <header class="main-header">
+        <!-- 🔴 BACKGROUND PICTURE HERE (banner.jpg) 🔴 -->
+        <img src="./assets/banner.jpg" alt="Conference Audience Background" class="header-bg-img">
+        
+        <!-- Dark overlay to make white text pop -->
+        <div class="header-overlay"></div>
+
+        <!-- Hero Content Box -->
+        <div class="hero-content">
+            <h1 class="hero-title">Code. <span>Connect.</span> Create</h1>
+            <p class="hero-subtitle">
+                Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. 
+                Three days of cutting-edge talks, hands-on workshops, and meaningful connections.
+            </p>
+            <div class="hero-action">
+                <a href="#tickets" class="btn-hero">Register Now</a>
+            </div>
+        </div>
+    </header>
+
+
+<!-- SPEAKERS SECTION -->
+    <section id="speakers" class="speakers-section">
+        <h2 class="section-title">Meet the Speakers</h2>
+        
+        <div class="speakers-grid">
+            
+            <!-- Card 1: Andrej Karpathy -->
+            <div class="speaker-card">
+                <div class="speaker-img-box">
+                    <!-- 🔴 PUT FIRST PICTURE HERE (andrej.png) 🔴 -->
+                    <img src="./assets/andrej.png" alt="Andrej Karpathy" class="speaker-img">
+                </div>
+                <div class="speaker-info">
+                    <span class="speaker-tag blue-tag">AI/ML</span>
+                    <h3 class="speaker-name">Andrej Karpathy</h3>
+                    <p class="speaker-desc">Founding Team member at OpenAI</p>
+                </div>
+            </div>
+
+            <!-- Card 2: Demis Hassabis -->
+            <div class="speaker-card">
+                <div class="speaker-img-box">
+                    <!-- 🔴 PUT SECOND PICTURE HERE (demis.png) 🔴 -->
+                    <img src="./assets/demis.png" alt="Demis Hassabis" class="speaker-img">
+                </div>
+                <div class="speaker-info">
+                    <span class="speaker-tag blue-tag">CLOUD & DEVOPS</span>
+                    <h3 class="speaker-name">Demis Hassabis</h3>
+                    <p class="speaker-desc">Co-Founder and CEO, Google DeepMind</p>
+                </div>
+            </div>
+
+            <!-- Card 3: Gary Marcus -->
+            <div class="speaker-card">
+                <div class="speaker-img-box">
+                    <!-- 🔴 PUT THIRD PICTURE HERE (gary.png) 🔴 -->
+                    <img src="./assets/gary.png" alt="Gary Marcus" class="speaker-img">
+                </div>
+                <div class="speaker-info">
+                    <span class="speaker-tag blue-tag">FRONTEND</span>
+                    <h3 class="speaker-name">Gary Marcus</h3>
+                    <p class="speaker-desc">AI Scientist, Author</p>
+                </div>
+            </div>
+
+            <!-- Card 4: Mustafa Suleyman -->
+            <div class="speaker-card">
+                <div class="speaker-img-box">
+                    <!-- 🔴 PUT FOURTH PICTURE HERE (mustafa.jpg) 🔴 -->
+                    <img src="./assets/mustafa.png" alt="Mustafa Suleyman" class="speaker-img">
+                </div>
+                <div class="speaker-info">
+                    <span class="speaker-tag blue-tag">BACKEND</span>
+                    <h3 class="speaker-name">Mustafa Suleyman</h3>
+                    <p class="speaker-desc">CEO of Microsoft AI</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PRICING SECTION -->
+    <section id="tickets" class="pricing-section">
+        <div class="pricing-header">
+            <h2 class="pricing-title">Secure Your Spot</h2>
+            <p class="pricing-subtitle">Early bird pricing ends August 15, 2026.</p>
+        </div>
+
+        <div class="pricing-grid">
+            
+            <!-- Card 1: Conference (Standard) -->
+            <div class="price-card">
+                <div class="card-top">
+                    <span class="ticket-type">CONFERENCE</span>
+                    <div class="ticket-price">$399</div>
+                    <span class="price-period">per person</span>
+                </div>
+                <ul class="features-list">
+                    <li>Access to all conference talks</li>
+                    <li>Official conference t-shirt</li>
+                    <li>Catered lunch & snacks</li>
+                    <li>Access to digital session recordings</li>
+                    <li>Online community hub</li>
+                    <li>Access to exhibition floor (3 days)</li>
+                </ul>
+                <div class="card-bottom">
+                    <a href="#" class="btn-price-secondary">Get Tickets</a>
+                </div>
+            </div>
+
+            <!-- Card 2: Pro (Featured Dark Card) -->
+            <div class="price-card featured-card">
+                <div class="card-top">
+                    <span class="ticket-type">PRO</span>
+                    <div class="ticket-price">$749</div>
+                    <span class="price-period">per person</span>
+                </div>
+                <ul class="features-list">
+                    <li>Everything in Conference</li>
+                    <li>Exclusive VIP network dinners</li>
+                    <li>Front-row reserved seating</li>
+                    <li>1x Full-day workshop ticket</li>
+                    <li>Private Q&A sessions</li>
+                    <li>1-on-1 expert coaching session</li>
+                </ul>
+                <div class="card-bottom">
+                    <a href="#" class="btn-price-primary">Get Pro</a>
+                </div>
+            </div>
+
+            <!-- Card 3: Team -->
+            <div class="price-card">
+                <div class="card-top">
+                    <span class="ticket-type">TEAM</span>
+                    <div class="ticket-price">$5,999</div>
+                    <span class="price-period">up to 10 people</span>
+                </div>
+                <ul class="features-list">
+                    <li>Everything in Pro bundle</li>
+                    <li>Dedicated team online workspace</li>
+                    <li>Private video memory recording</li>
+                    <li>Company logo on sponsor page</li>
+                    <li>Team internal hackathon entry</li>
+                    <li>Priority customer assistance</li>
+                </ul>
+                <div class="card-bottom">
+                    <a href="#" class="btn-price-secondary">Contact Us</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 </body>
 </html>
